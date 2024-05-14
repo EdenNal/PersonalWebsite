@@ -29,9 +29,9 @@
  
   
   /* Hide the link that should open and close the topnav on small screens */
-  /* .topnav .icon {
+  .topnav .icon {
     display: none;
-  } */
+  }
 
   /* The subnavigation menu */
 .subnav {
@@ -44,8 +44,8 @@
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
-  padding: 19px 12px;
+  color: rgb(255, 255, 255);
+  padding: 15px 10px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -59,18 +59,20 @@
   display: none;
   position: absolute;
   background-color: rgb(83, 82, 82);
-  width: 100%;
-  z-index: 0;
-  margin-top: 10px;
-  padding: 10px; /* Add padding to prevent covering the About div */
-  top: 8.5%;
+  width: 29%;
+  z-index: 10;
+  margin-top: 0px;
+  padding: 0px; /* Add padding to prevent covering the About div */
+  top: 10%;
 }
 
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
-  background-color: #eee; /* Match the hover background color */
+  background-color: rgb(169, 162, 162);; /* Match the hover background color */
   color: black;
+  margin: 0;
+  left: 10%;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */

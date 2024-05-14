@@ -1,0 +1,23 @@
+<div class="main-container">
+  <div class="topnav" >
+    <ul>
+      <li><a routerLink="Home">Home</a></li>
+      
+      <div class="subnav">
+        <li >About </li>
+        <div class="subnav-content">
+          <a routerLink="About/AboutMe">About Me</a>
+          <a routerLink="About/AboutSite">About this site</a>
+          
+        </div>
+      </div>
+      <li><a routerLink="Contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="component-container">
+  <!-- <app-home></app-home>
+  <app-about></app-about> -->
+  <router-outlet></router-outlet>
+</div>
